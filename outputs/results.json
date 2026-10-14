@@ -1,0 +1,35 @@
+{
+  "best_model": "Naive Bayes",
+  "results": {
+    "Decision Tree": {
+      "test_accuracy": 97.95,
+      "cv_accuracy": 98.68
+    },
+    "Naive Bayes": {
+      "test_accuracy": 99.55,
+      "cv_accuracy": 99.5
+    },
+    "Logistic Regression": {
+      "test_accuracy": 97.27,
+      "cv_accuracy": 97.14
+    },
+    "Random Forest": {
+      "test_accuracy": 99.55,
+      "cv_accuracy": 99.45
+    }
+  },
+  "macro_precision": 99.59,
+  "macro_recall": 99.55,
+  "macro_f1": 99.54,
+  "feature_importance": {
+    "rainfall": 0.2196,
+    "humidity": 0.2171,
+    "K": 0.1808,
+    "P": 0.1513,
+    "N": 0.1034,
+    "temperature": 0.0755,
+    "ph": 0.0523
+  },
+  "train_size": 1760,
+  "test_size": 440
+}
